@@ -1,0 +1,21 @@
+body{
+    font-family:'Dancing Script', cursive; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app h1{
+    text-align: center;
+}
+h1, h2{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.cashflow-container{
+    display: flex;
+   
+
+   
+}

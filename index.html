@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Display:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Expense Tracker</h1>
+    </div>
+    <div class="balance-container">
+        <h2>Your Balance</h2>
+        <div id="balance">$1000</div>
+
+        <div class="cashflow-container">
+            <div class="income-container">
+                <h2>Income</h2>
+                <div id="income">$5000</div>
+            </div>
+            <div class="expense-container">
+                <h2>Expense</h2>
+                <div id="expense">$500</div>
+            </div>
+        </div>
+            
+         
+         <div class="transaction-container">
+             <h2>Transaction History</h2>
+                 <ul>
+                     <li>salary
+                         <div>
+                         <span class="Income-amt">  $5000</span>
+                         <button>X</button>
+                        </div>
+                    </li>
+                    <li>buy grocery
+                        <div>
+                        <span class="expense-amt">  $500</span>
+                        <button>X</button>
+                       </div>
+                   </li>
+                </ul>
+            </div>  
+          <div class="new-transaction">
+              <h2>Add New Transaction</h2>
+              <form>
+                  <label for="Name">Name</label>
+                  <input id="name"  type="text">
+                  <label for="Amount">Amount</label>
+                  <input id="Amount"  type="number">
+                  <button id="incomebtn">Add Income</button>
+                  <button id="expense button">Add Expense</button>
+              </form>
+
+          </div>    
+        
+
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
